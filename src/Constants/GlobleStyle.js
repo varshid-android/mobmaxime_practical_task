@@ -89,5 +89,5 @@ export default StyleSheet.create({
     marginRight: 8,
     marginLeft: 19,
   },
-  Search_txt: {color: 'black', fontSize: 16},
+  Search_txt: {color: 'black', fontSize: 16, flex: 1},
 });

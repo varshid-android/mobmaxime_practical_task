@@ -78,6 +78,7 @@ const Dashboard = props => {
             placeholder="First name"
             value={firstname}
             ref={refFirstName}
+            placeholderTextColor={'gray'}
             returnKeyType="next"
             onSubmitEditing={() => {
               refLastName.current.focus();
@@ -93,6 +94,7 @@ const Dashboard = props => {
             style={GlobleStyle.DB_inputField}
             placeholder="Last name"
             value={lastname}
+            placeholderTextColor={'gray'}
             ref={refLastName}
             returnKeyType="next"
             onSubmitEditing={() => {
@@ -131,6 +133,7 @@ const Dashboard = props => {
             placeholder="Designation"
             value={designation}
             ref={refDesignation}
+            placeholderTextColor={'gray'}
             returnKeyType="next"
             onSubmitEditing={() => {
               refEmployment.current.focus();
@@ -146,6 +149,7 @@ const Dashboard = props => {
             style={GlobleStyle.DB_inputField}
             placeholder="Employment"
             value={employment}
+            placeholderTextColor={'gray'}
             ref={refEmployment}
             returnKeyType="done"
             onChangeText={txt => {

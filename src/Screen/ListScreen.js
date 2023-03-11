@@ -82,6 +82,7 @@ const ListScreen = props => {
             placeholder="Search..."
             style={GlobleStyle.Search_txt}
             value={Search}
+            placeholderTextColor={'gray'}
             onChangeText={txt => {
               searchFilterFunction(txt);
             }}></TextInput>
