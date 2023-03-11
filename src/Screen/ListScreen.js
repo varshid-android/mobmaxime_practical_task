@@ -88,11 +88,15 @@ const ListScreen = props => {
             }}></TextInput>
         </View>
       ) : (
-        <Text>Please add more then one items for search functionality</Text>
+        <Text style={GlobleStyle.errMsgStyle}>
+          Please add more then one items for search functionality
+        </Text>
       )}
 
       {props.items.length == 0 ? (
-        <Text>You have no any item, Please add itms first</Text>
+        <Text style={GlobleStyle.errMsgStyle}>
+          You have no any item, Please add itms first
+        </Text>
       ) : (
         <FlatList
           data={Search.length == 0 ? props.items : SearchArray}

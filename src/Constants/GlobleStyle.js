@@ -90,4 +90,5 @@ export default StyleSheet.create({
     marginLeft: 19,
   },
   Search_txt: {color: 'black', fontSize: 16, flex: 1},
+  errMsgStyle: {color: 'red'},
 });
